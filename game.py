@@ -21,15 +21,15 @@ class game:
         self.banner = pygame.Rect(0,0,1280,50)
         #self.best_score = 0
         self.score = 0
-        self.bug = pygame.image.load('images/bug.png')
+        self.bug = pygame.image.load('bug.png')
         self.bug = pygame.transform.scale(self.bug, (150,150))
         self.speed = 7
         self.ad = 80
         self.add = set()
         self.remove = set()
-        self.boom = pygame.image.load('images/boom.png')
+        self.boom = pygame.image.load('boom.png')
         self.boom = pygame.transform.scale(self.boom, (150,150))
-        self.cross = pygame.image.load('images/cross.png')
+        self.cross = pygame.image.load('cross.png')
         self.cross = pygame.transform.scale(self.cross, (100,100))
 
         self.cross_x = -100
